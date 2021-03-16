@@ -19,14 +19,13 @@
             </div>
         </div>
     </div>
-    To Clone this Flask app use <kbd style="cursor: pointer;" id="copyClip"><a style="color: rgb(247, 75, 75);">git</a> <a style="color: sandybrown;">clone</a> <a style="color: seagreen;">"https://www.github.com/TechGeeks-Dev/Todo-Flask-Demo.git"</a></kbd> (Click to
+    To Clone this Flask app use <kbd onClick="alert('Copied to Clipboard!');" style="cursor: pointer;" id="copyClip"><a style="color: rgb(247, 75, 75);">git</a> <a style="color: sandybrown;">clone</a> <a style="color: seagreen;">"https://www.github.com/TechGeeks-Dev/Todo-Flask-Demo.git"</a></kbd> (Click to
     Copy) in a Directory.
     <script>
         const span = document.querySelector("kbd");
 
         span.onclick = function() {
             document.execCommand("copy");
-            alert('Copied to Clipboard!');
         }
 
         span.addEventListener("copy", function(event) {
