@@ -9,6 +9,6 @@ git init
 git add .
 git commit -m "Initial commmit"
 
-heroku create todo-codewithharry
+heroku create AppName
 git remote -v
 git push heroku master
