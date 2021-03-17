@@ -1,18 +1,14 @@
-/*
-
-Dracula Theme v1.2.0
-
-https://github.com/zenorocha/dracula-theme
-
-Copyright 2015, All rights reserved
-
-Code licensed under the MIT license
-http://zenorocha.mit-license.org
-
-@author Éverton Ribeiro <nuxlli@gmail.com>
-@author Zeno Rocha <hi@zenorocha.com>
-
-*/
+/* Dracula Theme v1.2.5
+ *
+ * https://github.com/dracula/highlightjs
+ *
+ * Copyright 2016-present, All rights reserved
+ *
+ * Code licensed under the MIT license
+ *
+ * @author Denis Ciccale <dciccale@gmail.com>
+ * @author Zeno Rocha <hi@zenorocha.com>
+ */
 
 .hljs {
   display: block;
@@ -21,15 +17,14 @@ http://zenorocha.mit-license.org
   background: #282a36;
 }
 
-.hljs-keyword,
+.hljs-built_in,
 .hljs-selector-tag,
-.hljs-literal,
 .hljs-section,
 .hljs-link {
   color: #8be9fd;
 }
 
-.hljs-function .hljs-keyword {
+.hljs-keyword {
   color: #ff79c6;
 }
 
@@ -38,11 +33,15 @@ http://zenorocha.mit-license.org
   color: #f8f8f2;
 }
 
+.hljs-title {
+  color: #50fa7b;
+}
+
 .hljs-string,
-.hljs-title,
+.hljs-meta,
 .hljs-name,
 .hljs-type,
-.hljs-attribute,
+.hljs-attr,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition,
@@ -54,8 +53,7 @@ http://zenorocha.mit-license.org
 
 .hljs-comment,
 .hljs-quote,
-.hljs-deletion,
-.hljs-meta {
+.hljs-deletion {
   color: #6272a4;
 }
 
@@ -69,6 +67,11 @@ http://zenorocha.mit-license.org
 .hljs-name,
 .hljs-strong {
   font-weight: bold;
+}
+
+.hljs-literal,
+.hljs-number {
+  color: #bd93f9;
 }
 
 .hljs-emphasis {
